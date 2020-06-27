@@ -1,0 +1,65 @@
+body {
+    background: #9d1560;
+    display: flex; /* so the content is centered on the viewport */
+    justify-content: center;
+    align-items: center;
+}
+
+article { /* all this is doing is create that gorgeous grid <3 */;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 65px 2fr 2fr 0.6fr 2fr 2fr;
+    grid-template-areas: 
+        "hd . t1 . p2 ."
+        "hd p1 t1 . . p3"
+        ". p1 img img img img";
+    width: 1200px;
+}
+
+@media all and (min-width: 1460px) {
+    article {
+        width: 1400px
+    }
+}
+
+#header {
+    grid-area: hd;
+    margin-top: 3vw;
+    font-family: 'Jost', sans-serif;
+    color: #b3b312;
+    font-size: 32px;
+    writing-mode: vertical-lr;
+    text-shadow: 2px 0px 0 black;
+}
+
+p, q {
+    color: white;
+    font-family: 'Markazi Text', serif;
+}
+
+#p1 {
+    grid-area: p1;
+    text-align: justify;
+}
+
+#title {
+    grid-area: t1;
+    font-family: 'Arvo', serif;
+    color: #b3b312;
+    font-size: 3em;
+    text-shadow: 3px 0px 0 black;
+}
+
+#p2 {
+    grid-area: p2;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    margin-top: 50px;
+    margin-right: 60px;
+    text-align: justify;
+}
+
+#p3 {
+    grid-area: p3;
+    text-align: justify;
+}
