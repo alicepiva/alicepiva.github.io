@@ -18,7 +18,7 @@ article { /* all this is doing is create that gorgeous grid <3 */;
 
 @media all and (min-width: 1460px) {
     article {
-        width: 1400px
+        width: 1390px
     }
 }
 
