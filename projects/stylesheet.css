@@ -19,12 +19,13 @@ article { /* all this is doing is create that gorgeous grid <3 */;
 
 #header {
     grid-area: hd;
-    margin-top: 3vw;
+    margin-top: 6vw;
     font-family: 'Jost', sans-serif;
     color: #b3b312;
     font-size: 32px;
     writing-mode: vertical-lr;
     text-shadow: 2px 0px 0 black;
+    position: fixed
 }
 
 p, q {
@@ -66,6 +67,17 @@ p, q {
 
 @media all and (min-width: 1460px) {
     article {
-        width: 1390px
+        width: 1390px;
+        grid-template-columns: 65px 2.1fr 2fr 0.6fr 2fr 2fr;
+        grid-template-rows: 0.5fr 1fr 1fr;
+    }
+
+    #header {
+        margin-top: 4vw;
+    }
+
+    #img1 {
+        width: 1000px;
+        margin-top: -75px;
     }
 }
