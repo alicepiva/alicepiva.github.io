@@ -29,3 +29,8 @@
         color: #b3b312;
         text-shadow: 9px 0px 0 black;
     }
+
+a {
+        color: white;
+        text-decoration: underline;
+    }
