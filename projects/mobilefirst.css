@@ -1,0 +1,67 @@
+h1 {
+    font-size: 3.4em;
+    writing-mode: vertical-lr;
+    position: fixed;
+    padding-left: 2vw;
+    padding-top: 6vw;
+}
+div {
+    padding: 5vw 8vw 10vh 15vw;
+}
+
+p {
+    text-align: justify;
+    font-size: 2.7em;
+}
+
+.quote {
+    text-align: justify;
+    font-size: 2.2em;
+    padding-right: 3vw;
+    margin: 6vw;
+}
+
+#whichworld {
+    font-size: 7em;
+    text-align: left;
+}
+
+#img1 {
+    width: 100vw;
+    margin-left: -16vw;
+    margin-bottom: -6vh;
+    object-fit: cover;
+    object-position: 0px 120px;
+}
+
+#img2 {
+    width: 100vw;
+    margin-left: -16vw;
+    padding: 6vh 0;
+}
+
+#img3 {
+    width: 70vw;
+    padding: 0 0 0 0;
+}
+
+#img4 {
+    width: 70vw;
+    padding: 1vh 0 6vh 0;
+}
+
+#img5 {
+    width: 70vw;
+    padding: 4vh 0 1vh 0;
+}
+
+#img6 {
+    width: 70vw;
+    padding: 0 0 2vh 0;
+}
+
+#img7 {
+    width: 100vw;
+    margin-left: -16vw;
+    padding: 6vh 0 8vh 0;
+}
