@@ -1,1 +1,1 @@
-this is where to put simpoi's images
+this is where to put all stylesheets and images referent to the simpoi ex-machina project
