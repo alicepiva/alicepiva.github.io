@@ -1,0 +1,133 @@
+body {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    writing-mode: vertical-lr;
+    position: fixed;
+    top: 8%;
+}
+
+p, q {
+    text-align: justify;
+}
+
+#pg1 {
+    display: grid;
+    grid-gap: 10px 30px;
+    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+    grid-template-rows: 0.8fr 0.1fr 0.4fr;
+    grid-template-areas:
+    "p1 wwrl . p2 p3"
+    "p1 wwrl . . p3"
+    "p1 img1 img1 img1 img1";
+    width: 85%;
+    margin: auto;
+    background-image: url(double_postit_bg.png);
+    background-size: 83%;
+    background-position-x: right;
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+}
+
+#p1 {
+    grid-area: p1;
+    margin-top: auto;
+    margin-bottom: 85%;
+}
+
+#whichworld {
+    grid-area: wwrl;
+    font-size: 2.7em;
+    text-align: left;
+    margin-top: 30%;
+}
+
+#p2 {
+    grid-area: p2;
+    margin-top: 20%;
+    padding-right: 25%;
+    font-size: 0.9em;
+    line-height: 0.95em;
+    text-align: left;
+}
+
+#p3 {
+    grid-area: p3;
+    margin-top: auto; 
+}
+
+#img1 {
+    grid-area: img1;
+    width: 100%;
+}
+
+#pg2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
+    grid-template-rows: .05fr .8fr 1fr .2fr .1fr .45fr .5fr;
+    grid-template-areas:
+    ". . . . ."
+    "p4 . . . img3"
+    "img2 img2 img2 img2 img4"
+    ". . . . ."
+    "img5 img7 img7 img7 img7"
+    "img6 img7 img7 img7 img7"
+    "p5 img7 img7 img7 img7";
+    width: 90%;
+    margin: auto;
+    background-image: url(sketches.jpg);
+    background-size: 140%;
+    background-position-x: -205px;
+    background-repeat: no-repeat;
+}
+
+#p4 {
+    grid-area: p4;
+}
+
+#img2 {
+    grid-area: img2;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#img3 {
+    grid-area: img3;
+    width: 100%;
+    margin-top: auto;
+}
+
+#img4 {
+    grid-area: img4;
+    width: 100%;
+}
+
+#img5 {
+    grid-area: img5;
+    width: 100%;
+}
+
+#img6 {
+    grid-area: img6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img7 {
+    grid-area: img7;
+    width: 100%;
+}
+
+#p5 {
+    grid-area: p5;
+    font-size: 0.9em;
+    line-height: 0.95em;
+    margin: 5% 10%;
+}
