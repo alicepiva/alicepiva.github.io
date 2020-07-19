@@ -67,7 +67,7 @@ p, q {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
-    grid-template-rows: .1fr .8fr 1fr .4fr .3fr .4fr .5fr;
+    grid-template-rows: .1fr .8fr 1fr .4fr .3fr .8fr .5fr;
     grid-template-areas:
     ". . . . ."
     "p4 . . . img3"
@@ -77,10 +77,12 @@ p, q {
     "img6 img7 img7 img7 img7"
     "p5 img7 img7 img7 img7";
     width: 90%;
+    max-height: 1475px;
     margin: auto;
     background-image: url(sketches.jpg);
-    background-size: 94%;
+    background-size: 115%;
     background-repeat: no-repeat;
+    background-position-x: -115px;
 }
 
 #p4 {
