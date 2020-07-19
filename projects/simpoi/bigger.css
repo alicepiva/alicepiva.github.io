@@ -26,7 +26,7 @@ p, q {
     "p1 img1 img1 img1 img1";
     width: 90%;
     margin: auto;
-    background-image: url(double_postit_bg.png);
+    background-image: url(sketches_background.jpg);
     background-size: 83%;
     background-position-x: right;
     background-position-y: 10%;
@@ -79,7 +79,7 @@ p, q {
     width: 90%;
     max-height: 1475px;
     margin: auto;
-    background-image: url(sketches.jpg);
+    background-image: url(post_it_background.png);
     background-size: 115%;
     background-repeat: no-repeat;
     background-position-x: -115px;
