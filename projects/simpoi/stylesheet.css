@@ -16,7 +16,7 @@
     h1 {
         font-family: 'Jost', sans-serif;
         color: #b3b312;
-        text-shadow: 5px 0px 0 black;
+        text-shadow: 5px 0px 0 #da008a;
     }
     
     p, q {
@@ -27,7 +27,7 @@
     #whichworld {
         font-family: 'Arvo', serif;
         color: #b3b312;
-        text-shadow: 9px 0px 0 black;
+        text-shadow: 7px 0px 0 #c11783;
     }
 
 a {
